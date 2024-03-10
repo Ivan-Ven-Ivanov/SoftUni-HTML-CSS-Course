@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card{
+    max-width: 400px;
+    overflow: hidden;
+    border-radius: 0.4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card::before{
+    display: block;
+    content: '';
+    position: absolute;
+    inset: 0;
+    box-shadow: 0 0 2em 1em rgb(0, 0, 0, 0.4) inset;
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+}
+
+.card:hover::before{
+    opacity: 0;
+}
+
+.card svg{
+    display: block;
+    width: 2em;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    fill: white;
+}
+
+.viewport{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.viewport:nth-child(1){  
+    background-image: 
+        linear-gradient(
+        to right in oklab, 
+        rgb(23% 0% 61%) 0%, rgb(0% 86% 64%) 100%
+        );       
+}
+
+.viewport:nth-child(2){
+    background-image: 
+        linear-gradient(
+        to right in oklab, 
+        rgb(81% 37% 69%) 0%, rgb(93% 48% 17%) 100%
+        );   
+}

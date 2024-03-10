@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 18px/1.5 'Karla', sans-serif;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.site-banner{
+    background-image: url(images/poster.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.transparent-banner{
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16.8em;
+    padding: 1.6em 5.3em;
+}
+
+.site-navigation ul{
+    display: flex;
+    gap: 3em;
+}
+
+.site-navigation li{
+    list-style: none outside;
+}
+
+.site-navigation a{
+    text-decoration: none;
+    color: white;
+}
+
+.site-logo{
+    display: block;
+    width: 124px;
+    height: 76px;
+    text-indent: -200vw;
+    overflow: hidden;
+    background-image: url(images/logo.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.site-title{
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Cormorant Infant', serif;
+    color: white;
+    margin-bottom: 1.9em;
+}
+
+.site-banner .paragraph-box{
+    max-width: 722px;
+    margin: 0 auto;
+}
+
+.site-banner p{
+    padding: 0 2em 10em 2em;
+    text-align: center;
+    color: white;
+}
+
+.quote-section{
+    background-color: #f8f0e9;
+}
+
+.quote-section .quote-box{
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 2.6em 0 7em;
+}
+
+.quote-section .quote-box p{
+    padding-bottom: 5.5em;
+}
+
+.quote-section .quote-box blockquote{
+    font-family: 'Cormorant Infant', serif;
+    font-style: italic;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 0.8;
+}
+
+.support-section{
+    background-color: #e14747;
+}
+
+.support-section .support-box{
+    max-width: 290px;
+    margin: 0 auto;
+    padding: 5.2em 0;
+}
+
+.support-section .support-box h3{
+    color: white;
+    padding-bottom: 3.6em;
+    text-align: center;
+}
+
+.support-section .support-box p{
+    color: white;
+    text-align: center;
+}
+
+.blog-section{
+    background-color: #f8f0e9;
+}
+
+.blog-section article{
+    max-width: 530px;
+    margin: 0 auto;
+    padding: 4.38em 0;
+}
+
+.blog-section article h2{
+    font-family: 'Cormorant Infant', serif;
+    font-size: 70px;
+    text-align: center;
+    line-height: 1;
+    padding: 1.4em 0.2em 1.7em;
+}
+
+.blog-section .read-more-button,
+.blog-section .read-all-button{
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 0.4em 1em;
+    text-align: center;
+}
+
+.blog-section .read-more-button{
+    max-width: 140px;   
+    margin: 5.6em 0 4.8em
+}
+
+.blog-section .read-all-button{
+    max-width: 155px;
+    margin: 0 auto;
+}
+
+.find-section{
+    background-color: #e14747;
+}
+
+.find-section .find-box{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 8em 0 4.3em;
+}
+
+.find-section .find-box h2{
+    font-family: 'Cormorant Infant', serif;
+    font-size: 70px;
+    text-align: center;
+    line-height: 1;
+    color: white;
+    margin-bottom: 1.6em;
+}
+
+.find-section .find-box p{
+    color: white;
+    text-align: center;
+    margin-bottom: 4.9em;
+}
+
+.find-section .find-box a{
+    display: block;
+    max-width: 190px;
+    background-color: #fad87a;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.site-footer{
+    background-color: #352b2a;
+    padding: 3.3em 0 4.8em 8.9em;
+}
+
+.site-footer .footer-box{
+    max-width: 500px;
+}
+
+.site-footer p{
+    color: white;
+}
+
+.site-footer p:last-child{
+    color: #6c6968;
+    margin-top: 2.1em;
+    font-size: 16px;
+}
+
+.site-footer .site-logo{
+    width: 76px;
+    height: 45px;
+    margin-bottom: 3.1em;
+}

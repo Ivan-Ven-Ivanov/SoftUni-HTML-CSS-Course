@@ -1,0 +1,52 @@
+html{
+    font: 16px/1.5 'Helvetica', sans-serif;
+}
+
+body{
+    font:inherit;
+    padding: 4em;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Georgia', serif;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+hr{
+    margin: 2em 0;
+}
+
+p:nth-child(10){
+    margin-bottom: 4em;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td{
+    width: 30em;
+    padding: 0.5em;
+    border: 2px solid lightgray;
+}
+
+th{
+    background-color: lightgray;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(238, 238, 238);
+}
+
+blockquote{
+    border-left: 4px solid rgb(221,221,221);
+    padding: 0.1em 0 2.5em 2em;
+}
+
+cite{
+    display: block;
+    text-align: right;
+}
